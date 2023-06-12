@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="shortcut icon" href="assets/fonts/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ẩm thực Hà Nội</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header" id="header">
+            <div class="logo">
+                <a href="index.html">HaNoi Cuisine</a>
+            </div>
+
+            <div class="menu">
+                <a href="index.html" class="menu-item active">Trang chủ</a>
+                <a href="about.html" class="menu-item">Về chúng tôi</a>
+                <a href="all-products.html" class="menu-item">Ẩm thực</a>
+                <a href="posts.html" class="menu-item">Bài viết</a>
+                <a href="contact.html" class="menu-item">Liên hệ</a>
+            </div>
+
+            <div class="other">
+                <button class="other-btn other-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button class="other-btn other-user">
+                    <i onclick="changeIcon(this)" class="fa-solid fa-bars"></i>
+
+                    <div class="user-log">
+                        <a href="#">Đăng nhập</a>
+                        <a href="#">Đăng ký</a>
+                    </div>
+                </button>
+            </div>
+        </header>
+
+        <div class="banner"></div>
+
+        <div class="box-popular" id="popular">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <h3>Món ăn phải thử <i class="fa-regular fa-face-kiss-wink-heart"></i></h3>
+                <a href="all-products.html">
+                    Xem tất cả
+                    <i class="fa-solid fa-chevron-right fa-beat"></i>
+                </a>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-3">
+                    <div class="item-popular">
+                        <div class="item-img">
+                            <img src="assets/image/pho.jpg" loading="lazy">
+                        </div>
+    
+                        <div class="item-desc">
+                            <a href="detail-product.html" class="item-title">
+                                <h1>Phở Bò</h1>
+                            </a>
+                            <a href="detail-product.html">
+                                <span>
+                                    Chi tiết
+                                    <i class="fa-solid fa-arrow-right fa-beat"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="item-popular">
+                        <div class="item-img">
+                            <img src="assets/image/bun-cha.jpg" loading="lazy">
+                        </div>
+    
+                        <div class="item-desc">
+                            <a href="detail-product.html" class="item-title">
+                                <h1>Bún Chả</h1>
+                            </a>
+                            <a href="detail-product.html">
+                                <span>
+                                    Chi tiết
+                                    <i class="fa-solid fa-arrow-right fa-beat"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="item-popular">
+                        <div class="item-img">
+                            <img src="assets/image/nem-ran.jpg" loading="lazy">
+                        </div>
+    
+                        <div class="item-desc">
+                            <a href="detail-product.html" class="item-title">
+                                <h1>Nem Rán</h1>
+                            </a>
+                            <a href="detail-product.html">
+                                <span>
+                                    Chi tiết
+                                    <i class="fa-solid fa-arrow-right fa-beat"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="item-popular">
+                        <div class="item-img">
+                            <img src="assets/image/bun-dau-mam-tom.jpg" loading="lazy">
+                        </div>
+    
+                        <div class="item-desc">
+                            <a href="detail-product.html" class="item-title">
+                                <h1>Bún Đậu</h1>
+                            </a>
+                            <a href="detail-product.html">
+                                <span>
+                                    Chi tiết
+                                    <i class="fa-solid fa-arrow-right fa-beat"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="box-reviews">
+                <div class="box-reviews-content">
+                    <div class="reviews-title" data-aos="fade-right" data-aos-duration="500">
+                        <h1>Đánh Giá Của Du Khách <i class="fa-solid fa-heart fa-flip"></i></h1>
+                    </div>
+    
+                    <div class="reviews-content" data-aos="fade-left" data-aos-duration="500">
+                        <div>
+                            <p>
+                                "Vietnamese cuisine is absolutely delicious! The flavors and spices are so 
+                                diverse and unique, and the use of fresh herbs and vegetables really sets 
+                                it apart from other cuisines. I especially loved trying the street food and 
+                                the local specialties. The pho was a highlight for me, but I also loved the 
+                                banh mi, spring rolls, and the various noodle dishes. Overall, I was very 
+                                impressed with the food in Vietnam and highly recommend it to anyone visiting 
+                                the country."
+                            </p>
+
+                            <h2>Mr.Beast</h2>
+                        </div>
+    
+                        <div>
+                            <p>
+                                "As a foreign traveler, I have been blown away by the delicious and 
+                                diverse cuisine in Vietnam. The combination of fresh herbs, spices, 
+                                and flavors is truly unparalleled. I have especially fallen in love 
+                                with the street food culture here, where you can find some of the most 
+                                authentic and mouth-watering dishes around every corner. Overall, I highly 
+                                recommend experiencing the incredible cuisine in Vietnam - it's truly a culinary 
+                                adventure."
+                            </p>
+
+                            <h2>Mrs.Alice</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="slick-arrow arrow-prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+    
+                    <div class="slick-arrow arrow-next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-posts">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <h3>Bài viết nổi bật</h3>
+                <a href="posts.html">
+                    Xem tất cả
+                    <i class="fa-solid fa-chevron-right fa-beat"></i>
+                </a>
+            </div>
+
+            <div class="posts"  data-aos="fade-up" data-aos-duration="1000">
+                <a href="detail-post.html">
+                    <div class="post-title">
+                        <h1>Những Món Ngon Hà Nội Vừa Nghe Tên Đã Thèm <i class="fa-solid fa-heart fa-flip"></i></h1>
+                    </div>
+        
+                    <div class="post-para">
+                        <p><strong>“Ăn gì ở Hà Nội?”</strong> là câu hỏi khó đối với nhiều người, bởi vì thủ đô 
+                            Việt Nam chẳng những hội tụ tinh hoa văn hoá mà còn là mảnh đất vàng son 
+                            của ẩm thực. Các món ngon Hà Nội thường được “nhận diện” bằng hương vị pha 
+                            trộn đánh thức vị giác, trang trí “ngon mắt” và phục vụ nóng. Ăn uống ở Hà Nội 
+                            thích nhất là vào lúc trời se lạnh, cùng bạn bè thưởng thức mỹ vị rồi hàn huyên 
+                            về những kỷ niệm đẹp. Hãy dành trọn một ngày (hoặc nhiều hơn) để thưởng thức các 
+                            đặc sản Hà Nội trong bài viết này nhé.</p>
+                    </div>
+                </a>
+
+                <a href="detail-post.html">
+                    <div class="post-title">
+                        <h1>6 Điểm Ấn Tượng Về Ẩm Thực Việt Nam Trong Mắt Bạn Bè Quốc Tế <i class="fa-solid fa-heart fa-flip"></i></h1>
+                    </div>
+        
+                    <div class="post-para">
+                        <p>Không chỉ phát huy nét đặc trưng truyền thống, ẩm thực Việt Nam còn tiếp 
+                            thu những tinh hoa của nền ẩm thực thế giới. Chính vì vậy mà văn hóa ăn 
+                            uống của người Việt đã ngày càng vang danh, nhiều món được xếp hạng cao 
+                            trong danh sách bình chọn.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="slick-arrow arrow-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+
+            <div class="slick-arrow arrow-next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-3">
+                        <ul>
+                            <li class="footer-item"><h1>HaNoi Cuisine</h1></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li class="footer-item"><a href="index.html"><h1>Trang Chủ</h1></a></li>
+                            <li class="footer-item"><a href="about.html"><span>Về chúng tôi</span></a></li>
+                            <li class="footer-item"><a href="all-products.html"><span>Ẩm thực</span></a></li>
+                            <li class="footer-item"><a href="posts.html"><span>Bài viết</span></a></li>
+                            <li class="footer-item"><a href="contact.html"><span>Liên hệ</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li class="footer-item"><a href="#"><h1>Điều Khoản Sử dụng</h1></a></li>
+                            <li class="footer-item"><a href="#"><span>Chính sách bảo mật</span></a></li>
+                            <li class="footer-item"><a href="#"><span>Chính sách Cookie</span></a></li>
+                            <li class="footer-item"><a href="#"><span>Chính sách và quy định</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li class="footer-item"><h1>Liên Hệ</h1></li>
+                            <li class="footer-item"><span><i class="fa-solid fa-phone"></i>09-79-34-xx-98</span></li>
+                            <li class="footer-item"><span><i class="fa-solid fa-envelope"></i>nguyentranlinh31@gmail.com</span></li>
+                            <li class="footer-item"><span><i class="fa-solid fa-location-dot"></i>Hà Nội, Việt Nam</span></li>
+                            <li class="footer-item"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <h1><i class="fa-regular fa-copyright"></i>Copyright 2023 by LinhTran</h1>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.js" integrity="sha256-CfQXwuZDtzbBnpa5nhZmga8QAumxkrhOToWweU52T38=" crossorigin="anonymous"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
