@@ -613,9 +613,17 @@ body::-webkit-scrollbar-thumb{
     color: var(--white-color);
 }
 
+.footer-item a:hover span{
+    display: block;
+    left: 8px;
+}
+
 .footer-item span{
     color: var(--white-color);
     font-size: 1.8rem;
+    position: relative;
+    left: 0;
+    transition: left .1s linear;
 }
 
 .footer-item span i{
