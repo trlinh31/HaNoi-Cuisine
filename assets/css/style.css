@@ -590,6 +590,11 @@ body::-webkit-scrollbar-thumb{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    transition: color .25s ease-in-out;
+}
+
+.card-post-detail h1:hover{
+    color: var(--primary-color);
 }
 
 .card-post-detail p{
